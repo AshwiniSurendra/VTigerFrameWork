@@ -21,7 +21,7 @@ import vTiger.ObjectRepository.LoginPage;
 import vTiger.ObjectRepository.OrganizationInformationPage;
 
 public class SmokeTestingWithOrganizationTest extends BaseClass {
-		@Test(dataProvider="Orgnization")
+		@Test(dataProvider="Orgnization",groups="SmokeSuite")
 		public void createOrgWithIndustryDataProviderWithSmokeTest(String OrgName,String Industry) throws IOException
 		{
 			//Step1:Create the object of Required Generic Utilities

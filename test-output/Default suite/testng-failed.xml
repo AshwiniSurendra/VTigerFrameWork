@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Vtiger.Practice.DemoTest2">
+      <class name="Vtiger.OrganizationsTestScripts.SmokeTestingWithOrganizationTest">
         <methods>
           <include name="bmConfig"/>
           <include name="bsconfig"/>
           <include name="amConfig"/>
+          <include name="createOrgWithIndustryDataProviderWithSmokeTest" invocation-numbers="2"/>
           <include name="bcConfig"/>
-          <include name="demoTest2"/>
           <include name="asconfig"/>
           <include name="acConfig"/>
         </methods>
-      </class> <!-- Vtiger.Practice.DemoTest2 -->
+      </class> <!-- Vtiger.OrganizationsTestScripts.SmokeTestingWithOrganizationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
