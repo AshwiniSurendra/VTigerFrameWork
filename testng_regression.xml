@@ -3,10 +3,10 @@
 <suite name="Suite">
 <groups>
 <run>
-<exclude name="SmokeSuite"></exclude>
+<include name="RegressionSuite"></include>
 
 
-<exclude name="RegressionSuite"></exclude>
+
 </run>
 </groups>
   <test thread-count="5" name="Test">
