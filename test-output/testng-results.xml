@@ -2,7 +2,7 @@
 <testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-25T22:01:10 IST" name="Suite" finished-at="2023-01-25T22:01:36 IST" duration-ms="25633">
+  <suite started-at="2023-01-25T22:34:26 IST" name="Suite" finished-at="2023-01-25T22:34:50 IST" duration-ms="23781">
     <groups>
       <group name="RegressionSuite">
         <method signature="RegressionTestingWithOrganizationTest.createOrgWithIndustryDataProviderWithSmokeTest(java.lang.String,java.lang.String)[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" name="createOrgWithIndustryDataProviderWithSmokeTest" class="Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest"/>
@@ -12,21 +12,21 @@
         <method signature="RegressionTestingWithOrganizationTest.createOrgWithIndustryDataProviderWithSmokeTest(java.lang.String,java.lang.String)[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" name="createOrgWithIndustryDataProviderWithSmokeTest" class="Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest"/>
       </group> <!-- SmokeSuite -->
     </groups>
-    <test started-at="2023-01-25T22:01:10 IST" name="Test" finished-at="2023-01-25T22:01:36 IST" duration-ms="25633">
+    <test started-at="2023-01-25T22:34:26 IST" name="Test" finished-at="2023-01-25T22:34:50 IST" duration-ms="23781">
       <class name="Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest">
-        <test-method is-config="true" signature="bsconfig()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:01:10 IST" name="bsconfig" finished-at="2023-01-25T22:01:10 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="bsconfig()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:34:26 IST" name="bsconfig" finished-at="2023-01-25T22:34:26 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bsconfig -->
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:01:10 IST" name="bcConfig" finished-at="2023-01-25T22:01:13 IST" duration-ms="2906" status="PASS">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:34:26 IST" name="bcConfig" finished-at="2023-01-25T22:34:29 IST" duration-ms="2355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:01:13 IST" name="bmConfig" finished-at="2023-01-25T22:01:16 IST" duration-ms="3230" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:34:29 IST" name="bmConfig" finished-at="2023-01-25T22:34:32 IST" duration-ms="2764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="createOrgWithIndustryDataProviderWithSmokeTest(java.lang.String,java.lang.String)[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:01:16 IST" name="createOrgWithIndustryDataProviderWithSmokeTest" data-provider="Orgnization" finished-at="2023-01-25T22:01:27 IST" duration-ms="10811" status="PASS">
+        <test-method signature="createOrgWithIndustryDataProviderWithSmokeTest(java.lang.String,java.lang.String)[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:34:32 IST" name="createOrgWithIndustryDataProviderWithSmokeTest" data-provider="Orgnization" finished-at="2023-01-25T22:34:41 IST" duration-ms="9884" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,27 +42,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrgWithIndustryDataProviderWithSmokeTest -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:01:27 IST" name="amConfig" finished-at="2023-01-25T22:01:29 IST" duration-ms="1710" status="PASS">
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:34:41 IST" name="amConfig" finished-at="2023-01-25T22:34:43 IST" duration-ms="1814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:01:29 IST" name="bmConfig" finished-at="2023-01-25T22:01:31 IST" duration-ms="2626" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:34:43 IST" name="bmConfig" finished-at="2023-01-25T22:34:46 IST" duration-ms="2908" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="demoTest()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:01:31 IST" name="demoTest" finished-at="2023-01-25T22:01:31 IST" duration-ms="5" status="PASS">
+        <test-method signature="demoTest()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:34:46 IST" name="demoTest" finished-at="2023-01-25T22:34:46 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demoTest -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:01:31 IST" name="amConfig" finished-at="2023-01-25T22:01:35 IST" duration-ms="3988" status="PASS">
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:34:46 IST" name="amConfig" finished-at="2023-01-25T22:34:50 IST" duration-ms="3828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:01:35 IST" name="acConfig" finished-at="2023-01-25T22:01:36 IST" duration-ms="306" status="PASS">
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:34:50 IST" name="acConfig" finished-at="2023-01-25T22:34:50 IST" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->
-        <test-method is-config="true" signature="asconfig()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:01:36 IST" name="asconfig" finished-at="2023-01-25T22:01:36 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="asconfig()[pri:0, instance:Vtiger.OrganizationsTestScripts.RegressionTestingWithOrganizationTest@77847718]" started-at="2023-01-25T22:34:50 IST" name="asconfig" finished-at="2023-01-25T22:34:50 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asconfig -->
