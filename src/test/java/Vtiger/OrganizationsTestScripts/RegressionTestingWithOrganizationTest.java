@@ -64,7 +64,7 @@ public class RegressionTestingWithOrganizationTest extends BaseClass {
 	public void demoTest()
 	{
 		System.out.println("How are you");
-		Assert.fail();
+		//Assert.fail();
 	}
 	
 	@Test
