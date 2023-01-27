@@ -27,6 +27,8 @@ public class BaseClass {
 	public PropertFileUtility putil=new PropertFileUtility();
 		public ExcelFileUtility eutil=new ExcelFileUtility();
 		public WebDriver driver=null;
+		public static WebDriver sdriver;
+
 
 	@BeforeSuite(groups={"SmokeSuite","RegressionSuite"})
 
@@ -47,14 +49,16 @@ public class BaseClass {
 		{
 			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
+			sdriver=driver;
 			System.out.println("===="+BROWSER+" Launched Successfully");
 		}
 		else if(BROWSER.equalsIgnoreCase("firefox"))
 			{
-			System.setProperty("webdriver.gecko.driver", ".\\geckodriver.exe");
 
 			WebDriverManager.firefoxdriver().setup();
 			driver=new FirefoxDriver();
+			sdriver=driver;
+
 			System.out.println("===="+BROWSER+" Launched Successfully");
 
 			}

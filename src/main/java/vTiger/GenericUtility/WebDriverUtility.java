@@ -239,8 +239,8 @@ public class WebDriverUtility
 	{
 		TakesScreenshot ts=(TakesScreenshot) driver;
 		File src=ts.getScreenshotAs(OutputType.FILE);
-		File dst=new File(".\\ScreenShots\\"+ScreenShotName+".png");
-		FileUtils.copyFile(src, dst);
+		File dst=new File(".\\ScreenShots"+ScreenShotName+".png");
+		FileUtils.copyFile(src,dst);
 		return dst.getAbsolutePath();		
 	}
 	/**This method will scroll downwards untill the specific element

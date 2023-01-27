@@ -2,7 +2,9 @@ package Vtiger.OrganizationsTestScripts;
 
 import java.io.IOException;
 
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import vTiger.GenericUtility.BaseClass;
@@ -14,7 +16,7 @@ import vTiger.ObjectRepository.CreateNewOrganizationPage;
 import vTiger.ObjectRepository.CreateOrganizationPage;
 import vTiger.ObjectRepository.HomePage;
 import vTiger.ObjectRepository.OrganizationInformationPage;
-
+@Listeners(vTiger.GenericUtility.ListenersImplementationClass.class)
 public class RegressionTestingWithOrganizationTest extends BaseClass {
 	
 	@Test(dataProvider="Orgnization",groups={"RegressionSuite","SmokeSuite"})
@@ -62,6 +64,7 @@ public class RegressionTestingWithOrganizationTest extends BaseClass {
 	public void demoTest()
 	{
 		System.out.println("How are you");
+		Assert.fail();
 	}
 	
 	@Test
@@ -73,7 +76,7 @@ public class RegressionTestingWithOrganizationTest extends BaseClass {
 	public Object[][] getData()
 	{
 		Object[][]data=new Object[1][2];
-		data[0][0]="Infosys";
+		data[0][0]="wipro";
 		data[0][1]="Technology";
 		
 		return data;
