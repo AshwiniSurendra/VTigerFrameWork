@@ -31,7 +31,7 @@ public class ListenersImplementationClass implements ITestListener{
 		WebDriverUtility wutil=new WebDriverUtility();
 		JavaUtility jutil=new JavaUtility();
 		String methodName=result.getMethod().getMethodName();
-		System.out.println("----"+methodName+"--Execution Started");
+		System.out.println("----"+methodName+"--Execution finished");
 		System.out.println(result.getThrowable());
 		
 		String screenShotName=methodName+"-"+jutil.getSystemDateInFormat();
