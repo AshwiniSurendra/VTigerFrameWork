@@ -48,7 +48,7 @@ public class RegressionTestingWithOrganizationTest extends BaseClass {
 		OrganizationInformationPage oip=new OrganizationInformationPage(driver);
 		String OrgHeader=oip.getOrganizationHeaderTxt();
 		//String IndustryType=oip.getOrganizationIndustryDropBtn();
-		Assert.assertTrue(OrgHeader.contains("ashu"));
+		Assert.assertTrue(OrgHeader.contains(OrgName));
 		//Step9:Logout from the application
 		
 	}
