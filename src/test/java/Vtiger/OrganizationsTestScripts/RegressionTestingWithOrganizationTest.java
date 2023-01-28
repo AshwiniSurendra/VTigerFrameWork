@@ -48,14 +48,7 @@ public class RegressionTestingWithOrganizationTest extends BaseClass {
 		OrganizationInformationPage oip=new OrganizationInformationPage(driver);
 		String OrgHeader=oip.getOrganizationHeaderTxt();
 		//String IndustryType=oip.getOrganizationIndustryDropBtn();
-		if(OrgHeader.contains(OrgName))
-		{
-			System.out.println(OrgHeader+" Created successfully with");
-		}
-		else
-		{
-			System.out.println(OrgName+" Not created");
-		}
+		Assert.assertTrue(OrgHeader.contains(OrgName));
 		//Step9:Logout from the application
 		
 	}

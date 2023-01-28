@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Vtiger.Practice.DemoTest1">
+      <class name="Vtiger.Practice.AssertionPractice">
         <methods>
-          <include name="bmConfig"/>
-          <include name="bsconfig"/>
-          <include name="amConfig"/>
-          <include name="bcConfig"/>
-          <include name="demoTest"/>
-          <include name="asconfig"/>
-          <include name="acConfig"/>
+          <include name="assertTest2"/>
         </methods>
-      </class> <!-- Vtiger.Practice.DemoTest1 -->
+      </class> <!-- Vtiger.Practice.AssertionPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
